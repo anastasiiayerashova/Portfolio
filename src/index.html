@@ -20,8 +20,8 @@
   <body>
     <header class="header">
       <a href="#home" class="logo">
-        Anastasia <span>Yerashova</span>
-        <i class="bx bx-menu" id="menu-icon"></i>
+        Anastasia&nbsp;<span>Yerashova</span>
+      </a>
         <nav class="navbar">
           <a href="#home">Home</a>
           <a href="#about">About</a>
@@ -30,12 +30,18 @@
           <a href="#contact">Contact</a>
         </nav>
         <button class="gradient-btn">Contact Me</button>
-      </a>
+
+       <button class="mob-open-btn" type="button" id="menu-open-btn">
+        <span class="visually-hidden">Open menu</span>
+        <svg class="mob-open-btn-icon" width="32" height="32">
+          <use href="/img/icons.svg#icon-menu"></use>
+        </svg>
+      
     </header>
     <section class="home" id="home">
       <div class="home-content">
         <h1>Hi, It's <span>Anastasia</span></h1>
-        <h3>I'm a <span>Full-Stack Developer</span></h3>
+        <h3>I'm a&nbsp;<span>Full-Stack Developer</span></h3>
         <p>
           Inspired and detail-oriented Front-End Developer skilled in HTML, CSS,
           JavaScript, and React. I specialize in creating user-friendly web
@@ -76,14 +82,16 @@
       <div class="about-content">
         <h2>About <span>Me</span></h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-          consequuntur aliquid. Sunt id earum reprehenderit qui doloremque
-          tempora ducimus dolor dolorum in minima, ea excepturi corporis ex esse
-          beatae eum. Sit nisi voluptatibus ipsa ipsum deserunt exercitationem
-          eveniet commodi eaque dolorum modi numquam? Esse, maiores quis
-          reprehenderit ullam minima ut repudiandae nisi.
+          Motivated and detail-driven Front-End Developer with
+           expertise in React, Redux, JavaScript, HTML5, and CSS3.
+            I emphasize Agile/Scrum methodologies and prioritize teamwork,
+             flexibility, and ongoing development. Throughout my education,
+              I contributed to team projects, honing my skills in organization, communication, and collaboration.
+           <span class="more-text" style="display:none;">
+            Additionally, I am passionate about problem-solving and building scalable, user-friendly applications. I enjoy learning new technologies and staying up-to-date with industry trends to continuously improve my skills.
+        </span>
         </p>
-        <a href="#" class="btn">Read More</a>
+        <button class="btn js-btn">Read More</button>
       </div>
     </section>
     <section class="services" id="services">
@@ -131,13 +139,11 @@
       <h2 class="heading">Projects</h2>
       <div class="projects-box">
         <div class="project-card">
-          <img src="./img/home-img.jpg" alt="filmfinder" />
+          <img src="./img/film_finder.jpg" alt="film finder" />
           <h3>FilmFinder</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            doloremque blanditiis expedita laborum quam inventore cum delectus
-            deleniti
-          </p>
+          <p class="skills">[React, Redux, REST API, Redux Toolkit]</p>
+          <p>It is a Single-Page-Application where I utilized Redux for state management to ensure seamless application performance and integrated Axios to fetch
+             data from an external API, displaying real-time information about trending movies</p>
           <a
             href="https://goit-react-hw-05-mu-gold.vercel.app/"
             target="_blank"
@@ -147,15 +153,16 @@
         </div>
 
         <div class="project-card">
-          <img src="./img/home-img.jpg" alt="filmfinder" />
-          <h3>FilmFinder</h3>
+          <img src="./img/clock.jpg" alt="watchcharm" />
+          <h3>WatchCharm</h3>
+          <p class="skills">[JavaScript, REST API, AJAX, HTML5, CSS3]</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            doloremque blanditiis expedita laborum quam inventore cum delectus
-            deleniti
+            Led a team in the WatchCharm project. Oversaw project deployment on GitHub,
+             managed version control, and resolved merge conflicts, also enhanced
+              website performance by optimizing images and minimizing CSS and JavaScript files
           </p>
           <a
-            href="https://goit-react-hw-05-mu-gold.vercel.app/"
+            href="https://anastasiiayerashova.github.io/project-WebWizard1/"
             target="_blank"
             class="btn"
             >Review Project</a
@@ -163,15 +170,17 @@
         </div>
 
         <div class="project-card">
-          <img src="./img/home-img.jpg" alt="filmfinder" />
-          <h3>FilmFinder</h3>
+          <img src="./img/portfolio_2.jpg" alt="portfolio" />
+          <h3>Portfolio website</h3>
+          <p class="skills">[HTML, CSS3, JS, AJAX, REST API, AXIOS]</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            doloremque blanditiis expedita laborum quam inventore cum delectus
-            deleniti
+            Developed with team a responsive Portfolio website with features like dark
+mode toggle, and seamless integration with Local Storage for user
+preferences. Implemented a registration form with API integration for handling user
+submissions and ensuring secure data transfer
           </p>
           <a
-            href="https://goit-react-hw-05-mu-gold.vercel.app/"
+            href="https://alex-usenko325.github.io/project-Dream4ce/"
             target="_blank"
             class="btn"
             >Review Project</a
@@ -179,15 +188,17 @@
         </div>
 
         <div class="project-card">
-          <img src="./img/home-img.jpg" alt="filmfinder" />
-          <h3>FilmFinder</h3>
+          <img src="./img/recipes.jpg" alt="radiant recipes" />
+          <h3>RadiantRecipes</h3>
+          <p class="skills">[React, Redux, React Router, REST API, Redux Toolkit]</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            doloremque blanditiis expedita laborum quam inventore cum delectus
-            deleniti
+            I developed a Single-Page Application using Redux
+             for state management and Axios for fetching
+              real-time recipe data. The app ensures smooth
+               performance and scalability, offering users an intuitive interface to explore recipes 
           </p>
           <a
-            href="https://goit-react-hw-05-mu-gold.vercel.app/"
+            href="https://recipes-finder-omega.vercel.app/"
             target="_blank"
             class="btn"
             >Review Project</a
@@ -195,15 +206,16 @@
         </div>
 
         <div class="project-card">
-          <img src="./img/home-img.jpg" alt="filmfinder" />
-          <h3>FilmFinder</h3>
+          <img src="./img/phonebook.jpg" alt="phonebook" />
+          <h3>PhoneBook</h3>
+         <p class="skills">[REACT, REDUX, REDUX-PERSIST, JWT]</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            doloremque blanditiis expedita laborum quam inventore cum delectus
-            deleniti
+            Developed a simple phonebook connected to a Swagger backend API,
+            enabling users to sign up, log in, add, filter, and edit contacts,
+             also implemented JWT for secure authorization and data protection
           </p>
           <a
-            href="https://goit-react-hw-05-mu-gold.vercel.app/"
+            href="https://goit-react-hw-08-three-wheat.vercel.app/"
             target="_blank"
             class="btn"
             >Review Project</a
@@ -211,15 +223,16 @@
         </div>
 
         <div class="project-card">
-          <img src="./img/home-img.jpg" alt="filmfinder" />
-          <h3>FilmFinder</h3>
+          <img src="./img/counter.jpg" alt="task counter" />
+          <h3>TaskCounter</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            doloremque blanditiis expedita laborum quam inventore cum delectus
-            deleniti
+            TaskCounter – a simple and efficient task management application. 
+            Add, edit, and delete your tasks, filter them by status (active or completed),
+             and stay on top of your to-do list. With an intuitive interface,
+              TaskCounter helps you plan effectively and achieve your goals
           </p>
           <a
-            href="https://goit-react-hw-05-mu-gold.vercel.app/"
+            href="https://tasks-counter-react.vercel.app/"
             target="_blank"
             class="btn"
             >Review Project</a
@@ -287,6 +300,34 @@
       </ul>
       <p class="copyright">© Anastasia Yerashova | All Rights Reserved</p>
     </footer>
-    <script src="script.js"></script>
+
+    <div class="mob-menu-overlay">
+    <div class="mob-menu" id="mobile-menu">
+    <nav class="mob-menu-nav">
+      <a href="#home" class="logo logo-mob">
+        Anastasia&nbsp;<span>Yerashova</span>
+      </a>
+      <button class="mob-menu-close-btn visually-hidden" id="menu-close-btn">
+        <span class="visually-hidden">Close menu</span>
+        <svg class="mob-menu-close-btn-icon" width="32" height="32">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+
+    <ul class="mob-nav-list visually-hidden">
+      <li class="mob-nav-item">
+        <a class="mob-nav-link" href="#about">About Me</a>
+      </li>
+      <li class="mob-nav-item">
+        <a class="mob-nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="mob-nav-item">
+        <a class="mob-nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+ </div>
+    <script type="module" src="/script.js"></script>
   </body>
 </html>

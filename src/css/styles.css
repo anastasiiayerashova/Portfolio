@@ -243,22 +243,21 @@ section {
 }
 
 .more-text {
-  font-size: 1.7rem;
-  opacity: 0; /* Сначала текст невидим */
-  transform: translateY(20px); /* Слегка смещаем текст вниз */
-  animation: fadeInUp 0.5s forwards; /* Анимация для плавного появления */
-  display: inline-block; /* или block, если необходимо */
-}
-
-@keyframes fadeInUp {
-  to {
-    opacity: 1; /* Делаем текст видимым */
-    transform: translateY(0); /* Возвращаем текст в его начальное положение */
-  }
+  opacity: 0;
+  transform: translateY(20px);
+  display: none;
+  transition: opacity 0.9s, transform 0.9s;
 }
 
 .more-text.visible {
-  animation: fadeInUp 0.5s forwards; /* Запуск анимации */
+  opacity: 1;
+  display: inline-block;
+  transform: translateY(0);
+}
+
+.more-text.hidden {
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .about-content .btn {

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleBtn = document.querySelector('.js-btn')
     const moreText = document.querySelector('.more-text')
 
-  toggleBtn.addEventListener('click', () => {
+toggleBtn.addEventListener('click', () => {
     if (moreText.classList.contains('visible')) {
         moreText.classList.remove('visible');
         moreText.classList.add('hidden');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         moreText.classList.add('visible');
         toggleBtn.textContent = 'Hide';
     }
-})
+});
 
 
 menuOpenBtn.addEventListener('click', () => {

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/portfolio/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-B_s_qR_g.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">
+        Anastasia&nbsp;<span>Yerashova</span>
+      </a>
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="gradient-btn">Contact Me</button>
+
+       <button class="mob-open-btn" type="button" id="menu-open-btn">
+        <span class="visually-hidden">Open menu</span>
+        <svg class="mob-open-btn-icon" width="32" height="32">
+          <use href="/portfolio/assets/icons-D82s-bJO.svg#icon-menu"></use>
+        </svg>
+      
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Anastasia</span></h1>
+        <h3>I'm a&nbsp;<span>Full-Stack Developer</span></h3>
+        <p>
+          Inspired and detail-oriented Front-End Developer skilled in HTML, CSS,
+          JavaScript, and React. I specialize in creating user-friendly web
+          development projects with a focus on Agile/Scrum and value teamwork,
+          adaptability, and continuous learning. A fast learner and
+          problem-solver, I am committed to delivering impactful and efficient
+          solutions
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/anastasiiayerashova" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anastasia-yerashova/"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://djinni.co/q/a23ba9b3c9/" target="_blank">
+            <i class="bx bxl-django"></i>
+          </a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="/portfolio/assets/home-img-CzFW3H4m.jpg" alt="Anastasia Yerashova" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="/portfolio/assets/home-img-CzFW3H4m.jpg" alt="Anastasia Yerashova" />
+      </div>
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+          Motivated and detail-driven Front-End Developer with
+           expertise in React, Redux, JavaScript, HTML5, and CSS3.
+            I emphasize Agile/Scrum methodologies and prioritize teamwork,
+             flexibility, and ongoing development. Throughout my education,
+              I contributed to team projects, honing my skills in organization, communication, and collaboration.
+           <span class="more-text">
+            Additionally, I am passionate about problem-solving and building scalable, user-friendly applications. I enjoy learning new technologies and staying up-to-date with industry trends to continuously improve my skills.
+        </span>
+        </p>
+        <button class="btn js-btn">Read More</button>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxl-figma"></i>
+            <h4>UI / UX Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Praesentium mollitia quam in atque aliquam? Maxime, reiciendis
+              facilis, esse rerum incidunt illum explicabo deleniti
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code"></i>
+            <h4>Frontend Development</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Praesentium mollitia quam in atque aliquam? Maxime, reiciendis
+              facilis, esse rerum incidunt illum explicabo deleniti
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code-curly"></i>
+            <h4>Backend Development</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Praesentium mollitia quam in atque aliquam? Maxime, reiciendis
+              facilis, esse rerum incidunt illum explicabo deleniti
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="/portfolio/assets/film_finder-CwLVcwQi.jpg" alt="film finder" />
+          <h3>FilmFinder</h3>
+          <p class="skills">[React, Redux, REST API, Redux Toolkit]</p>
+          <p>It is a Single-Page-Application where I utilized Redux for state management to ensure seamless application performance and integrated Axios to fetch
+             data from an external API, displaying real-time information about trending movies</p>
+          <a
+            href="https://goit-react-hw-05-mu-gold.vercel.app/"
+            target="_blank"
+            class="btn"
+            >Review Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="/portfolio/assets/clock-HkCxKmLq.jpg" alt="watchcharm" />
+          <h3>WatchCharm</h3>
+          <p class="skills">[JavaScript, REST API, AJAX, HTML5, CSS3]</p>
+          <p>
+            Led a team in the WatchCharm project. Oversaw project deployment on GitHub,
+             managed version control, and resolved merge conflicts, also enhanced
+              website performance by optimizing images and minimizing CSS and JavaScript files
+          </p>
+          <a
+            href="https://anastasiiayerashova.github.io/project-WebWizard1/"
+            target="_blank"
+            class="btn"
+            >Review Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="/portfolio/assets/portfolio_2-CCOJ_IJ0.jpg" alt="portfolio" />
+          <h3>Portfolio website</h3>
+          <p class="skills">[HTML, CSS3, JS, AJAX, REST API, AXIOS]</p>
+          <p>
+            Developed with team a responsive Portfolio website with features like dark
+mode toggle, and seamless integration with Local Storage for user
+preferences. Implemented a registration form with API integration for handling user
+submissions and ensuring secure data transfer
+          </p>
+          <a
+            href="https://alex-usenko325.github.io/project-Dream4ce/"
+            target="_blank"
+            class="btn"
+            >Review Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="/portfolio/assets/recipes-DEC8F6Lo.jpg" alt="radiant recipes" />
+          <h3>RadiantRecipes</h3>
+          <p class="skills">[React, Redux, React Router, REST API, Redux Toolkit]</p>
+          <p>
+            I developed a Single-Page Application using Redux
+             for state management and Axios for fetching
+              real-time recipe data. The app ensures smooth
+               performance and scalability, offering users an intuitive interface to explore recipes 
+          </p>
+          <a
+            href="https://recipes-finder-omega.vercel.app/"
+            target="_blank"
+            class="btn"
+            >Review Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="/portfolio/assets/phonebook-D2Alk_z0.jpg" alt="phonebook" />
+          <h3>PhoneBook</h3>
+         <p class="skills">[REACT, REDUX, REDUX-PERSIST, JWT]</p>
+          <p>
+            Developed a simple phonebook connected to a Swagger backend API,
+            enabling users to sign up, log in, add, filter, and edit contacts,
+             also implemented JWT for secure authorization and data protection
+          </p>
+          <a
+            href="https://goit-react-hw-08-three-wheat.vercel.app/"
+            target="_blank"
+            class="btn"
+            >Review Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="/portfolio/assets/counter-D77zuMtB.jpg" alt="task counter" />
+          <h3>TaskCounter</h3>
+          <p>
+            TaskCounter – a simple and efficient task management application. 
+            Add, edit, and delete your tasks, filter them by status (active or completed),
+             and stay on top of your to-do list. With an intuitive interface,
+              TaskCounter helps you plan effectively and achieve your goals
+          </p>
+          <a
+            href="https://tasks-counter-react.vercel.app/"
+            target="_blank"
+            class="btn"
+            >Review Project</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Number" />
+            <input type="text" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id=""
+            placeholder="Your message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="submit" class="btn">Send</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://github.com/anastasiiayerashova" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anastasia-yerashova/"
+          target="_blank"
+        >
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="https://djinni.co/q/a23ba9b3c9/" target="_blank">
+          <i class="bx bxl-django"></i>
+        </a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">© Anastasia Yerashova | All Rights Reserved</p>
+    </footer>
+
+    <div class="mob-menu-overlay">
+    <div class="mob-menu" id="mobile-menu">
+    <nav class="mob-menu-nav">
+      <a href="#home" class="logo logo-mob">
+        Anastasia&nbsp;<span>Yerashova</span>
+      </a>
+      <button class="mob-menu-close-btn visually-hidden" id="menu-close-btn">
+        <span class="visually-hidden">Close menu</span>
+        <svg class="mob-menu-close-btn-icon" width="32" height="32">
+          <use href="/portfolio/assets/icons-D82s-bJO.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+
+    <ul class="mob-nav-list visually-hidden">
+      <li class="mob-nav-item">
+        <a class="mob-nav-link" href="#about">About Me</a>
+      </li>
+      <li class="mob-nav-item">
+        <a class="mob-nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="mob-nav-item">
+        <a class="mob-nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+ </div>
+  </body>
+</html>
